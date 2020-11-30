@@ -23,7 +23,7 @@ namespace Gestione
                     count++;
                 }
 
-                i++;
+               i++;
             }
             Console.WriteLine(n);
             if (count== 2)
