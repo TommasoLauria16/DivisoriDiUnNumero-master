@@ -13,7 +13,7 @@ namespace Gestione
         public static void StampaDivisori(int n)
         {
             
-            int i = 1,count=1;
+            int i = 1,count=0;
             int max = n / 2;
             while (i <= max)
             {
@@ -26,7 +26,7 @@ namespace Gestione
                i++;
             }
             Console.WriteLine(n);
-            if (count== 2)
+            if (count== 1)
                 Console.WriteLine("il numero è primo");
             else
                 Console.WriteLine("il numero non è primo");
